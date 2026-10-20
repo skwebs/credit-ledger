@@ -1,0 +1,4 @@
+Options -Indexes
+<FilesMatch "^(\.env|\.htaccess|composer\.(json|lock)|package(-lock)?\.json|tsconfig\.json|vite\.config\.ts)$">
+  Require all denied
+</FilesMatch>
